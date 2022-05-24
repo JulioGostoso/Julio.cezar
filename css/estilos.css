@@ -1,0 +1,48 @@
+@font-face{
+    font-family: vll;
+    src: url('vll.ttf');
+
+}
+:root{
+    --cor-fundo:#1CFF00;
+    --cor-titulo:#fafafa;
+    --cor-paragrafo:#3ddb8f;
+    --cor-link:#268fbe;
+    --cor-borda:#0d0502;
+    --fonte-principal:vll;
+}
+
+body {
+      font-family: var(--fonte-principal);
+      background-color:  var(--cor-fundo);
+      width: 500px;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+}
+
+div{
+    text-align: center;
+}
+
+ h1 {
+     color:   var(--cor-titulo);
+ }
+ 
+ budy  p {
+     color:var(--cor-paragrafo);
+     text-align: justify;
+ }
+
+ ul li a {
+     color:var( --cor-link);
+ }
+ img    {
+    border-radius: 50%;
+    width: 300px;
+    border-radius: 50%;
+    border-width: 6px;
+    border-color: black;
+    border-style: solid;
+}
